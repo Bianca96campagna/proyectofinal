@@ -3,7 +3,7 @@
 
 
 h1{
-    background-color: #e0d8b08f;
+    background-color: #e0d8b09d;
     color: #ffffff;
     font-family: 'Libre Bodoni', serif;
     font-size: 40px;
@@ -20,6 +20,7 @@ h1:hover {
     background-color: #e0d8b0;
     transition: all 2s;
 }
+
 h2 {
     color: #e0d8b0;
     font-family: 'Poppins', sans-serif;
