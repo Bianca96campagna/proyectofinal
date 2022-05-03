@@ -2,6 +2,16 @@
 .whatsapp {
     position: fixed;
     right: 5px;
-    margin: 5px;
+    bottom: 5px;
+    z-index: 1;
     width: 80px;
+}
+
+.instagram {
+    border: 20px;
+    position: fixed;
+    right: 100px;
+    bottom: 5px;
+    width: 80px;
+    z-index: 1;
 }
