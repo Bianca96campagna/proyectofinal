@@ -1,0 +1,40 @@
+/*fuentes dps p scss*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Poppins:wght@300&display=swap');
+
+
+h1{
+    background-color: #e0d8b08f;
+    color: #ffffff;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px 20px;
+}
+
+
+h1:hover {
+    background-color: #e0d8b0;
+    transition: all 2s;
+}
+h2 {
+    color: #e0d8b0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px 10px;
+}
+
+.fondoprincipal {
+    background-image: url("Fotos/parque/fff.jpg");
+
+    background-attachment: fixed;
+}
+
