@@ -1,0 +1,11 @@
+$perfil-standard: (
+    bg-color-standar: rgb(161, 161, 90),
+    border-standar: 2px white,
+    font-standar: 30px,
+    
+);
+
+#standard {
+    background-color: map-get($perfil-standard, bg-color-standar);
+    font-size: map-get($perfil-standard,font-standar);
+}

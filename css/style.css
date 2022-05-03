@@ -1,0 +1,28 @@
+.whatsapp {
+  position: fixed;
+  right: 5px;
+  margin: 5px;
+  width: 80px;
+}
+
+/*navbar*/
+.navb {
+  background-color: #e0d8b0;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: center;
+  justify-content: end;
+}
+
+.navb:hover {
+  background-color: rgba(224, 216, 176, 0.8823529412);
+  transition: all 2s;
+}
+
+#standard {
+  background-color: rgb(161, 161, 90);
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
