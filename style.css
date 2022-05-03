@@ -1,7 +1,7 @@
 /*fuentes dps p scss*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Poppins:wght@300&display=swap');
 
-
+/*INDEX*/
 h1{
     background-color: #e0d8b09d;
     color: #ffffff;
@@ -21,21 +21,27 @@ h1:hover {
     transition: all 2s;
 }
 
-h2 {
-    color: #e0d8b0;
+
+.fondoprincipal {
+    background-image: url("Fotos/parque/fff.jpg");
+    background-attachment: fixed;
+}
+
+/*navbar*/
+.navb {
+    background-color: #e0d8b0;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     display: flex;
     flex-direction: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-    padding: 10px 10px;
+    justify-content: end;
 }
 
-.fondoprincipal {
-    background-image: url("Fotos/parque/fff.jpg");
-
-    background-attachment: fixed;
+.navb:hover {
+    background-color: #e0d8b0e1;
+    transition: all 2s;
 }
 
+.casas {
+    background-color: #e0d8b0;
+}
