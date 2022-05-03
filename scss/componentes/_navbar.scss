@@ -1,14 +1,9 @@
-/*navbar*/
-.navb {
-    background-color: #e0d8b0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    display: flex;
-    flex-direction: center;
-    justify-content: end;
-}
 
-.navb:hover {
-    background-color: #e0d8b0e1;
-    transition: all 2s;
+nav {
+
+    li{
+        background-color: aquamarine;
+        font-size: 20px;
+
+    }
 }

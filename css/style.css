@@ -5,19 +5,9 @@
   width: 80px;
 }
 
-/*navbar*/
-.navb {
-  background-color: #e0d8b0;
-  font-family: "Poppins", sans-serif;
+nav li {
+  background-color: aquamarine;
   font-size: 20px;
-  display: flex;
-  flex-direction: center;
-  justify-content: end;
-}
-
-.navb:hover {
-  background-color: rgba(224, 216, 176, 0.8823529412);
-  transition: all 2s;
 }
 
 #standard {
