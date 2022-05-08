@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Poppins:wght@300&display=swap");
 .fondo {
-  background-image: url(../../Fotos/parque/8fe1b55f-c561-42a9-b7b7-abf2f8c799ad.jpg);
+  background-image: url(../../Fotos/parque/fond.jpg);
 }
 
 h1 {
@@ -39,8 +39,8 @@ h1:hover {
 }
 
 .navb {
-  background-color: rgba(224, 216, 176, 0.431372549);
-  font-family: "Poppins", sans-serif;
+  background-color: rgba(224, 216, 176, 0.6862745098);
+  font-family: "Libre Bodoni", serif;
   font-size: 20px;
   display: flex;
   flex-direction: center;
@@ -52,13 +52,114 @@ h1:hover {
   transition: all 4s;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Pprueba*/
+.hola {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cont {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.tittl {
+  color: #642a63;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/*header*/
+.hi {
+  text-align: right;
+  width: 100%;
+  height: 600px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(211, 157, 56, 0.3882352941), #4DA0B0), url(../../Fotos/parque/5fa474c3-caa7-4e6c-8921-7481bca28f59.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.navhi a {
+  color: white;
+  font-size: 20px;
+  font-weight: 300px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.navhi a:hover {
+  text-decoration: underline;
+}
+
+.ola {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.sobrenosotros {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagen-about-us {
+  width: 48%;
+}
+
+.sobrenosotros .textos-nosotros {
+  width: 48%;
+}
+
+.textos-nosotros h3 {
+  margin-bottom: 15px;
+}
+
+.textos-nosotros h3 span {
+  background-color: #D39D38;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 black;
+  margin-right: 3px;
+}
+
+.textos-nosotros p {
+  padding: 0px 0px 30px 15px;
+  font-weight: 300;
+  text-align: justify;
+}
+
 #standard {
   background-color: rgb(161, 161, 90);
   font-size: 30px;
 }
 
 .fondo {
-  background-color: rgba(167, 142, 74, 0.699);
+  background-image: url(../../Fotos/parque/fond.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .casas {
@@ -73,10 +174,9 @@ h1:hover {
   background-color: rgba(197, 180, 133, 0.404);
 }
 
-/*navbar prueba*/
-.container {
-  width: 100%;
-  height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
