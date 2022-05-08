@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Poppins:wght@300&display=swap");
+.fondo {
+  background-image: url(../../Fotos/parque/8fe1b55f-c561-42a9-b7b7-abf2f8c799ad.jpg);
+}
+
 h1 {
-  background-color: rgba(224, 216, 176, 0.6156862745);
+  background-color: rgba(224, 216, 176, 0.4039215686);
   color: #ffffff;
   font-family: "Libre Bodoni", serif;
   font-size: 40px;
@@ -67,6 +71,12 @@ h1:hover {
 
 .contacto {
   background-color: rgba(197, 180, 133, 0.404);
+}
+
+/*navbar prueba*/
+.container {
+  width: 100%;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
