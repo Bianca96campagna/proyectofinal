@@ -1,19 +1,18 @@
 .navb {
-    background-color: #e0d8b0af;
+    background-color: #e4dcb557;
     font-family: 'Libre Bodoni', serif;
-    font-size: 20px;
+    font-size: 50px;
     display: flex;
     flex-direction: center;
     justify-content: end;
 }
 
-
 .navb:hover {
-    background-color: #e0d8b0;
+    background-color: #c9c19d4f;
     transition: all 4s;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,11 +22,12 @@
 /*Pprueba*/
 
 .hola {
-    font-family: 'Times New Roman', Times, serif;
-
+    font-family: 'Roboto Mono', monospace;
+    background-color: #969e6b;
 }
 
-.cont{
+
+.cont {
     padding: 60px 0;
     width: 90%;
     max-width: 1000px;
@@ -36,7 +36,26 @@
 
 }
 
-.tittl{
+.navhola {
+    text-align: right;
+    padding: 20px 50px 0 0;
+
+}
+
+.navhola a {
+    color: white;
+    font-weight: 300px;
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+
+.navhola a:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.tittl {
     color: #642a63;
     font-size: 30px;
     text-align: center;
@@ -45,77 +64,74 @@
 
 /*header*/
 
-.hi{
+.hi {
     text-align: right;
-width: 100%;
-height: 600px;
-background: #4DA0B0;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #d39d3863, #4DA0B0), url(../../Fotos/parque/5fa474c3-caa7-4e6c-8921-7481bca28f59.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-size: cover;
-background-attachment: fixed;
-position: relative;
-}
-
-.navhi a {
-    
-    color: white;
-    font-size: 20px;
-    font-weight: 300px;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.navhi a:hover{
-    text-decoration: underline;
+    width: 100%;
+    height: 600px;
+    background: #4DA0B0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d39d389a, #4d9fb060);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d39d3848, #4d9fb0a9), url(../../Fotos/parque/5fa474c3-caa7-4e6c-8921-7481bca28f59.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
 }
 
 
-
-.ola{
+.ola {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-
-.sobrenosotros{
+.galeria {
     display: flex;
     justify-content: space-evenly;
 
 }
 
-.imagen-about-us{
+.titulodos {
+    color: #fffdf9;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.imagen-about-us {
     width: 48%;
 
 }
 
-.sobrenosotros .textos-nosotros{
+.galeria .textos-nosotros {
+    font-family: 'Libre Bodoni', serif;
     width: 48%;
 
 }
 
-.textos-nosotros h3{
+.textos-nosotros h2 {
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    color: white;
     margin-bottom: 15px;
 
+
 }
 
-.textos-nosotros h3 span{
-    background-color: #D39D38;
+.textos-nosotros p {
     color: white;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px 0 black;
-    margin-right: 3px;
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+
 }
 
-.textos-nosotros p{
-padding: 0px 0px 30px 15px;
-font-weight: 300;
-text-align: justify;
-    
+.titulo-galeria {
+    color: white;
+    text-align: center;
+    font-family: 'Libre Bodoni', serif;
+
 }
+
+
+
+
