@@ -226,6 +226,10 @@
 }
 
 /*CASAS*/
+.casas {
+  background-color: white;
+}
+
 .texto-casas {
   font-family: "Roboto Mono", monospace;
   color: white;
@@ -356,16 +360,6 @@
   border-radius: 50%;
 }
 
-.contenedor-sobre-video {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.video-about-us {
-  width: 60%;
-  margin: 10px 20px;
-}
-
 .titulo-patio {
   display: flex;
   justify-content: center;
@@ -376,6 +370,12 @@
   border-bottom: 1px solid #969e6b;
   font-family: "Roboto Mono", monospace;
   margin: 20px;
+}
+
+.video-about-us {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .parrafo-video {
@@ -503,7 +503,7 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%) rotateZ(0deg);
 }
@@ -557,17 +557,15 @@ body {
 .texto-servicios {
   font-family: "Roboto Mono", monospace;
   color: white;
-  font-size: 50px;
+  font-size: 60px;
   display: flex;
   flex-direction: end;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
-  padding: 20px 20px;
+  margin: 200px auto;
 }
 
 .texto-servicios:hover {
-  background-color: rgba(150, 158, 107, 0.1725490196);
   font-size: 80px;
   transition: 2s;
 }
@@ -582,33 +580,391 @@ button {
   background-color: rgba(150, 158, 107, 0.3490196078);
   color: white;
   box-shadow: 2px 2px 10px black;
+  margin: 70px 70px;
 }
 
 button:hover {
   background-color: #969e6b;
 }
 
-.container-servicios {
+/**/
+.nuestras-casas {
   text-align: center;
-  padding: 200px 12px;
 }
 
-.color-acento {
+.container-servi {
+  padding: 200px 0;
+}
+
+.container-servi p {
+  display: none;
+  color: #ffffff;
+}
+
+.carta1 {
+  background-image: url(../../Fotos/servicios/aaa.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.carta2 {
+  background-image: url(../../Fotos/servicios/aa.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.carta3 {
+  background-image: url(../../Fotos/servicios/a.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.servicios-li {
   color: white;
+  margin: 15px 0px;
 }
 
 #texto-servi {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 40px;
+  border-bottom: 1px solid #ffffff;
   font-family: "Roboto Mono", monospace;
+}
+
+.contenido-texto-foto {
+  width: 60%;
+  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  margin: 200px;
+  padding: 20px 20px;
+  text-align: justify;
+}
+
+.contenedor-sobre-fotos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photo1 {
+  border-radius: 60%;
+  width: 40%;
+  margin: 40px 40px;
+  padding: 0 0;
+}
+
+.photo1:hover {
+  transition: 2s;
+  width: 60%;
+}
+
+.nuestras-casas {
+  margin: 0%;
+  padding: 0;
+}
+
+.nuestras-casas .programas {
+  display: flex;
+  justify-content: center;
+}
+
+.h3servicios {
+  display: block;
+  margin: 0;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+}
+
+.h2servicios {
   color: white;
   font-size: 40px;
+  font-family: "Roboto Mono", monospace;
+  margin: 10px 100px;
+  padding: 10px;
+}
+
+.contenedor-sobre-pileta {
   display: flex;
-  flex-direction: end;
+  justify-content: space-evenly;
+  font-family: "Roboto Mono", monospace;
+}
+
+.pileta {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  border-bottom: 1px solid white;
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+}
+
+#foto-pile {
+  width: 30%;
+  border-radius: 30%;
+  margin: 30px 30px;
+}
+
+.foto-pileta {
+  width: 30%;
+  border-radius: 30%;
+  margin: 30px 30px;
+}
+
+.pile-listas {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  margin: 20px;
+  text-align: start;
+  font-size: 20px;
+}
+
+#foto-parque {
+  width: 30%;
+  border-radius: 30%;
+  margin: 30px 30px;
+}
+
+.foto-parque {
+  width: 30%;
+  border-radius: 30%;
+  margin: 30px 30px;
+}
+
+/*footer*/
+.footer-servicios {
+  background-color: #969e6b;
+}
+
+/*contacto*/
+.hi4 {
+  text-align: right;
+  width: 100%;
+  height: 600px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/casas/2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.h3contacto {
+  color: #969e6b;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 10px 0px;
+}
+
+.h2contacto {
+  color: grey;
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+/**/
+.form-titulo {
+  font-family: "Roboto Mono", monospace;
+  color: grey;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+}
+
+#boton {
+  background-color: rgba(150, 158, 107, 0.5019607843);
+  color: white;
+  padding: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+  background-color: #969e6b;
+}
+
+/*ubicacion*/
+.hi5 {
+  text-align: right;
+  width: 100%;
+  height: 600px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/pileta/p.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#mapa {
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 20px 20px;
 }
 
+.ubicah2 {
+  background-color: rgb(170, 187, 125);
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  background-color: #9DDCDC;
+}
+
+.ico {
+  margin: 0 auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  filter: url("#mapa");
+}
+.ico .circle {
+  background: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  transform-origin: 0%;
+}
+.ico .circle.circle-top {
+  height: 33.3333333333px;
+  width: 41.6666666667px;
+  animation: blob-1-anim 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  z-index: 0;
+  top: 0;
+}
+.ico .circle.circle-bottom {
+  height: 33.3333333333px;
+  width: 41.6666666667px;
+  animation: blob-2-anim 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  z-index: 9;
+  bottom: 0px;
+}
+.ico .st-arrow {
+  fill: #55544F;
+  animation: scrolly 3s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
+  perspective: 9000px;
+  transform: translateZ(0);
+  transform-origin: bottom;
+}
+
+.svg {
+  z-index: 9;
+  position: relative;
+}
+
+@keyframes blob-1-anim {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  14% {
+    transform: translateX(-50%) translateY(-8px);
+  }
+  24% {
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+@keyframes blob-2-anim {
+  0% {
+    transform: scale(1) translate(-50%, 10px);
+  }
+  30% {
+    transform: scale(1) translate(-50%, 10px);
+  }
+  70% {
+    transform: scale(1) translate(-50%, 10px);
+  }
+  95% {
+    transform: scale(1) translate(-50%, 26px);
+  }
+  100% {
+    transform: scale(1) translate(-50%, 10px);
+  }
+}
+@keyframes scrolly {
+  0% {
+    transform: translate3d(0, -150%, 0) rotateX(90deg) scale(0.5) skewX(3deg);
+  }
+  30% {
+    transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+  70% {
+    transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+  95% {
+    transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+  100% {
+    transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+}
 #standard {
   background-color: rgb(161, 161, 90);
   font-size: 30px;
