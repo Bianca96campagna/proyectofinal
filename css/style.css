@@ -40,154 +40,56 @@
   z-index: 1;
 }
 
-.navb {
-  background-color: rgba(228, 220, 181, 0.3411764706);
-  font-family: "Libre Bodoni", serif;
-  font-size: 50px;
-  display: flex;
-  flex-direction: center;
-  justify-content: end;
-}
-
-.navb:hover {
-  background-color: rgba(201, 193, 157, 0.3098039216);
-  transition: all 4s;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/*Pprueba*/
-.hola {
-  background-color: #969e6b;
-}
-
-.cont {
-  padding: 60px 0;
-  width: 90%;
-  max-width: 1000px;
+/*FOOTER casas*/
+.footer-casas {
+  color: rgb(100, 98, 98);
+  padding: 60px 0 30px 0;
   margin: auto;
   overflow: hidden;
 }
 
-.navhola {
-  text-align: right;
-  padding: 20px 50px 0 0;
-  font-family: "Roboto Mono", monospace;
-}
-
-.navhola a {
-  color: white;
-  font-weight: 300px;
-  text-decoration: none;
-  margin-right: 50px;
-}
-
-.navhola a:hover {
-  font-size: 20px;
-  transition: 0.5s;
-}
-
-.tittl {
-  color: #642a63;
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-/*header*/
-.hi1 {
-  text-align: right;
-  width: 100%;
-  height: 600px;
-  background: #4DA0B0;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/parque/5fa474c3-caa7-4e6c-8921-7481bca28f59.jpg);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
-.ola {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.galeria {
+.cont-footer-casa {
+  color: rgb(100, 98, 98);
   display: flex;
+  width: 90%;
   justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(100, 98, 98);
 }
 
-.titulodos {
-  color: #fffdf9;
-  font-family: "Libre Bodoni", serif;
-}
-
-.imagen-about-us {
-  width: 48%;
-}
-
-.galeria .textos-nosotros {
-  font-family: "Libre Bodoni", serif;
-  width: 48%;
-}
-
-.textos-nosotros h2 {
-  font-family: "Libre Bodoni", serif;
+.content-foo-casa {
+  color: rgb(100, 98, 98);
   text-align: center;
-  color: white;
-  margin-bottom: 15px;
 }
 
-.titulo-galeria {
-  color: white;
+.content-foo .h4casa {
+  color: rgb(100, 98, 98);
+  font-family: "Libre Bodoni", serif;
+  border-bottom: 1px solid rgb(100, 98, 98);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo .p-casa {
+  color: rgb(100, 98, 98);
+  font-family: "Libre Bodoni", serif;
+}
+
+.titulo-final-casa {
+  font-family: "Libre Bodoni", serif;
+  color: rgb(100, 98, 98);
   text-align: center;
-  font-family: "Libre Bodoni", serif;
-}
-
-.texto-p {
-  color: #fffdf9;
-  font-family: "Libre Bodoni", serif;
-  padding: 0px 0px 20px 15px;
   font-size: 20px;
-  text-align: center;
+  margin: 20px 0 0 0;
 }
 
-.galeria-port {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+/*footer servicios*/
+.footer-servicios {
+  background-color: #969e6b;
 }
 
-.imagen-port {
-  width: 24%;
-  margin-bottom: 5px;
-  height: 300px;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-}
-
-.imagen-port > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.imagen-port:hover {
-  filter: opacity(0.5);
-}
-
-/*FOOTER*/
+/*FOOTER inicio*/
 .footer-inicio {
   padding: 60px 0 30px 0;
   margin: auto;
@@ -225,11 +127,217 @@
   margin: 20px 0 0 0;
 }
 
-/*CASAS*/
+/*navbar*/
+.navhola {
+  text-align: right;
+  padding: 20px 50px 0 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.navhola a {
+  color: white;
+  font-weight: 300px;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.navhola a:hover {
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.tittl {
+  color: #642a63;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/**/
+.galeria {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*servicios*/
+.nuestras-casas {
+  text-align: center;
+  margin: 0%;
+  padding: 0;
+}
+
+.container-servi {
+  padding: 200px 0;
+}
+
+.nuestras-casas .programas {
+  display: flex;
+  justify-content: center;
+}
+
+#standard {
+  background-color: rgb(161, 161, 90);
+  font-size: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*FONDO INDEX*/
+.hola {
+  background-color: #969e6b;
+}
+
+.hi1 {
+  text-align: right;
+  width: 100%;
+  height: 600px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/parque/5fa474c3-caa7-4e6c-8921-7481bca28f59.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.ola {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*FONDO SERVICIOS*/
+.servicios {
+  text-align: right;
+  width: 100%;
+  height: 600px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/pileta/ff.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/*FONDO casas*/
 .casas {
   background-color: white;
 }
 
+.hi2 {
+  text-align: right;
+  width: 100%;
+  height: 600px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/casas/casas-fuera.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.contacto {
+  background-color: rgba(197, 180, 133, 0.404);
+}
+
+.bg-textoh3 {
+  background-color: white;
+}
+
+.contenedor-nosotros {
+  background-color: #969e6b;
+}
+
+.contenedor-nosotros-casa {
+  background-color: white;
+}
+
+/*FONDO contacto*/
+.hi4 {
+  text-align: right;
+  width: 100%;
+  height: 600px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/casas/2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.fondo {
+  background-image: url(../../Fotos/parque/fond.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*FONDO ubicacion*/
+.hi5 {
+  text-align: right;
+  width: 100%;
+  height: 600px;
+  background: #4DA0B0;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/pileta/p.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/*index*/
+/*titulo-inicio*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navb {
+  background-color: rgba(228, 220, 181, 0.3411764706);
+  font-family: "Libre Bodoni", serif;
+  font-size: 50px;
+  display: flex;
+  flex-direction: center;
+  justify-content: end;
+}
+
+.navb:hover {
+  background-color: rgba(201, 193, 157, 0.3098039216);
+  transition: all 4s;
+}
+
+.galeria .textos-nosotros {
+  font-family: "Libre Bodoni", serif;
+  width: 48%;
+}
+
+.texto-p {
+  color: #fffdf9;
+  font-family: "Libre Bodoni", serif;
+  padding: 0px 0px 20px 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*casas*/
 .texto-casas {
   font-family: "Roboto Mono", monospace;
   color: white;
@@ -255,25 +363,6 @@
   text-decoration: none;
 }
 
-.hi2 {
-  text-align: right;
-  width: 100%;
-  height: 600px;
-  background: #4DA0B0;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/casas/casas-fuera.jpg);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
-.bg-textoh3 {
-  background-color: white;
-}
-
 .texto-casash3 {
   font-family: "Roboto Mono", monospace;
   color: rgb(100, 98, 98);
@@ -285,10 +374,6 @@
   margin: 50px auto;
   padding: 50px 50px;
   text-decoration: none;
-}
-
-.contenedor-nosotros {
-  background-color: #969e6b;
 }
 
 .titulo-sobrenosotros {
@@ -354,12 +439,6 @@
   padding: 5px 10px 5px 10px;
 }
 
-#casa1 {
-  padding: 0;
-  margin: 20px 20px;
-  border-radius: 50%;
-}
-
 .titulo-patio {
   display: flex;
   justify-content: center;
@@ -372,12 +451,6 @@
   margin: 20px;
 }
 
-.video-about-us {
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .parrafo-video {
   width: 60%;
   color: #969e6b;
@@ -388,28 +461,10 @@
   text-align: justify;
 }
 
-.livingfoto {
-  padding: 0;
-  margin: 20px 20px;
-  border-radius: 100%;
-  width: 30%;
-}
-
 .interior-lista {
   color: rgb(228, 224, 224);
   font-family: "Roboto Mono", monospace;
   margin: 20px;
-}
-
-.contenedor-nosotros-casa {
-  background-color: white;
-}
-
-.foto-cama {
-  padding: 0;
-  margin: 70px 20px;
-  border-radius: 100%;
-  width: 30%;
 }
 
 .habitaciones2 {
@@ -428,132 +483,7 @@
   margin: 20px;
 }
 
-/*FOOTER*/
-.footer-casas {
-  color: rgb(100, 98, 98);
-  padding: 60px 0 30px 0;
-  margin: auto;
-  overflow: hidden;
-}
-
-.cont-footer-casa {
-  color: rgb(100, 98, 98);
-  display: flex;
-  width: 90%;
-  justify-content: space-evenly;
-  margin: auto;
-  padding-bottom: 50px;
-  border-bottom: 1px solid rgb(100, 98, 98);
-}
-
-.content-foo-casa {
-  color: rgb(100, 98, 98);
-  text-align: center;
-}
-
-.content-foo .h4casa {
-  color: rgb(100, 98, 98);
-  font-family: "Libre Bodoni", serif;
-  border-bottom: 1px solid rgb(100, 98, 98);
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-
-.content-foo .p-casa {
-  color: rgb(100, 98, 98);
-  font-family: "Libre Bodoni", serif;
-}
-
-.titulo-final-casa {
-  font-family: "Libre Bodoni", serif;
-  color: rgb(100, 98, 98);
-  text-align: center;
-  font-size: 20px;
-  margin: 20px 0 0 0;
-}
-
-/*SERVICIOS*/
-.servicios {
-  text-align: right;
-  width: 100%;
-  height: 600px;
-  background: #4DA0B0;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/pileta/ff.jpg);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  background: #000;
-  position: relative;
-  height: 100%;
-}
-
-.arrow-container {
-  display: block;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotateZ(0deg);
-}
-.arrow-container:hover {
-  cursor: pointer;
-}
-.arrow-container:hover .arrow {
-  top: 50%;
-}
-.arrow-container:hover .arrow:before {
-  transform: translate(-50%, -50%) rotateZ(-30deg);
-}
-.arrow-container:hover .arrow:after {
-  transform: translate(-50%, -50%) rotateZ(30deg);
-}
-
-.arrow {
-  position: absolute;
-  left: 50%;
-  transition: all 0.4s ease;
-}
-.arrow:before, .arrow:after {
-  transition: all 0.4s ease;
-  content: "";
-  display: block;
-  position: absolute;
-  transform-origin: bottom right;
-  background: #fff;
-  width: 4px;
-  height: 50px;
-  border-radius: 10px;
-  transform: translate(-50%, -50%) rotateZ(-45deg);
-}
-.arrow:after {
-  transform-origin: bottom left;
-  transform: translate(-50%, -50%) rotateZ(45deg);
-}
-.arrow:nth-child(1) {
-  opacity: 0.3;
-  top: 35%;
-}
-.arrow:nth-child(2) {
-  opacity: 0.6;
-  top: 55%;
-}
-.arrow:nth-child(3) {
-  opacity: 0.9;
-  top: 75%;
-}
-
+/*servicios*/
 .texto-servicios {
   font-family: "Roboto Mono", monospace;
   color: white;
@@ -570,62 +500,9 @@ body {
   transition: 2s;
 }
 
-button {
-  font-size: 15px;
-  font-weight: bold;
-  font-family: "Roboto Mono", monospace;
-  padding: 5px 10px;
-  border-radius: 100px;
-  border: 2px solid rgba(150, 158, 107, 0.3490196078);
-  background-color: rgba(150, 158, 107, 0.3490196078);
-  color: white;
-  box-shadow: 2px 2px 10px black;
-  margin: 70px 70px;
-}
-
-button:hover {
-  background-color: #969e6b;
-}
-
-/**/
-.nuestras-casas {
-  text-align: center;
-}
-
-.container-servi {
-  padding: 200px 0;
-}
-
 .container-servi p {
   display: none;
   color: #ffffff;
-}
-
-.carta1 {
-  background-image: url(../../Fotos/servicios/aaa.jpg);
-  background-position: center center;
-  background-size: cover;
-  padding: 50px;
-  margin: 20px;
-  border-radius: 15px;
-}
-
-.carta2 {
-  background-image: url(../../Fotos/servicios/aa.jpg);
-  background-position: center center;
-  background-size: cover;
-  padding: 50px;
-  margin: 20px;
-  border-radius: 15px;
-}
-
-.carta3 {
-  background-image: url(../../Fotos/servicios/a.jpg);
-  background-position: center center;
-  background-size: cover;
-  padding: 50px;
-  margin: 20px;
-  border-radius: 15px;
 }
 
 .servicios-li {
@@ -650,33 +527,6 @@ button:hover {
   margin: 200px;
   padding: 20px 20px;
   text-align: justify;
-}
-
-.contenedor-sobre-fotos {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.photo1 {
-  border-radius: 60%;
-  width: 40%;
-  margin: 40px 40px;
-  padding: 0 0;
-}
-
-.photo1:hover {
-  transition: 2s;
-  width: 60%;
-}
-
-.nuestras-casas {
-  margin: 0%;
-  padding: 0;
-}
-
-.nuestras-casas .programas {
-  display: flex;
-  justify-content: center;
 }
 
 .h3servicios {
@@ -711,18 +561,6 @@ button:hover {
   margin: 0;
 }
 
-#foto-pile {
-  width: 30%;
-  border-radius: 30%;
-  margin: 30px 30px;
-}
-
-.foto-pileta {
-  width: 30%;
-  border-radius: 30%;
-  margin: 30px 30px;
-}
-
 .pile-listas {
   color: white;
   font-family: "Roboto Mono", monospace;
@@ -731,38 +569,7 @@ button:hover {
   font-size: 20px;
 }
 
-#foto-parque {
-  width: 30%;
-  border-radius: 30%;
-  margin: 30px 30px;
-}
-
-.foto-parque {
-  width: 30%;
-  border-radius: 30%;
-  margin: 30px 30px;
-}
-
-/*footer*/
-.footer-servicios {
-  background-color: #969e6b;
-}
-
 /*contacto*/
-.hi4 {
-  text-align: right;
-  width: 100%;
-  height: 600px;
-  background: #4DA0B0;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/casas/2.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
 .h3contacto {
   color: #969e6b;
   font-family: "Roboto Mono", monospace;
@@ -782,7 +589,159 @@ button:hover {
   padding: 0 0;
 }
 
-/**/
+/*ubicacion*/
+.ubicah2 {
+  background-color: rgb(170, 187, 125);
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/*INDEX*/
+.galeria-port {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imagen-port {
+  width: 24%;
+  margin-bottom: 5px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.imagen-port > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.imagen-port:hover {
+  filter: opacity(0.5);
+}
+
+/* casas */
+#casa1 {
+  padding: 0;
+  margin: 20px 20px;
+  border-radius: 50%;
+}
+
+.video-about-us {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.livingfoto {
+  padding: 0;
+  margin: 20px 20px;
+  border-radius: 100%;
+  width: 30%;
+}
+
+.foto-cama {
+  padding: 0;
+  margin: 70px 20px;
+  border-radius: 100%;
+  width: 30%;
+}
+
+/*servicios*/
+.carta1 {
+  background-image: url(../../Fotos/servicios/aaa.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.carta2 {
+  background-image: url(../../Fotos/servicios/aa.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.carta3 {
+  background-image: url(../../Fotos/servicios/a.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.contenedor-sobre-fotos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.photo1 {
+  border-radius: 60%;
+  width: 40%;
+  margin: 40px 40px;
+  padding: 0 0;
+}
+
+.photo1:hover {
+  transition: 2s;
+  width: 60%;
+}
+
+#foto-pile {
+  width: 30%;
+  border-radius: 30%;
+  margin: 30px 30px;
+}
+
+.foto-pileta {
+  width: 30%;
+  border-radius: 30%;
+  margin: 30px 30px;
+}
+
+#foto-parque {
+  width: 30%;
+  border-radius: 30%;
+  margin: 30px 30px;
+}
+
+.foto-parque {
+  width: 30%;
+  border-radius: 30%;
+  margin: 30px 30px;
+}
+
+/*servicios*/
+button {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Roboto Mono", monospace;
+  padding: 5px 10px;
+  border-radius: 100px;
+  border: 2px solid rgba(150, 158, 107, 0.3490196078);
+  background-color: rgba(150, 158, 107, 0.3490196078);
+  color: white;
+  box-shadow: 2px 2px 10px black;
+  margin: 70px 70px;
+}
+
+button:hover {
+  background-color: #969e6b;
+}
+
+/*contacto*/
 .form-titulo {
   font-family: "Roboto Mono", monospace;
   color: grey;
@@ -827,36 +786,6 @@ textarea {
 }
 
 /*ubicacion*/
-.hi5 {
-  text-align: right;
-  width: 100%;
-  height: 600px;
-  background: #4DA0B0;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/pileta/p.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-}
-
-#mapa {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 20px 20px;
-}
-
-.ubicah2 {
-  background-color: rgb(170, 187, 125);
-  color: white;
-  font-family: "Roboto Mono", monospace;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
 html,
 body {
   height: 100%;
@@ -965,27 +894,79 @@ body {
     transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
   }
 }
-#standard {
-  background-color: rgb(161, 161, 90);
-  font-size: 30px;
+/*SERVICIOS*/
+html {
+  height: 100%;
 }
 
-.fondo {
-  background-image: url(../../Fotos/parque/fond.jpg);
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+body {
+  background: #000;
+  position: relative;
+  height: 100%;
 }
 
-.contacto {
-  background-color: rgba(197, 180, 133, 0.404);
+.arrow-container {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(0deg);
+}
+.arrow-container:hover {
+  cursor: pointer;
+}
+.arrow-container:hover .arrow {
+  top: 50%;
+}
+.arrow-container:hover .arrow:before {
+  transform: translate(-50%, -50%) rotateZ(-30deg);
+}
+.arrow-container:hover .arrow:after {
+  transform: translate(-50%, -50%) rotateZ(30deg);
 }
 
-* {
+.arrow {
+  position: absolute;
+  left: 50%;
+  transition: all 0.4s ease;
+}
+.arrow:before, .arrow:after {
+  transition: all 0.4s ease;
+  content: "";
+  display: block;
+  position: absolute;
+  transform-origin: bottom right;
+  background: #fff;
+  width: 4px;
+  height: 50px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%) rotateZ(-45deg);
+}
+.arrow:after {
+  transform-origin: bottom left;
+  transform: translate(-50%, -50%) rotateZ(45deg);
+}
+.arrow:nth-child(1) {
+  opacity: 0.3;
+  top: 35%;
+}
+.arrow:nth-child(2) {
+  opacity: 0.6;
+  top: 55%;
+}
+.arrow:nth-child(3) {
+  opacity: 0.9;
+  top: 75%;
+}
+
+/*mapa ubicacion*/
+#mapa {
+  display: flex;
+  justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 20px 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

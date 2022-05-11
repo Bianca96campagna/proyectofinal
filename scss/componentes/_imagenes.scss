@@ -1,0 +1,134 @@
+/*INDEX*/
+
+
+.galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port {
+    width: 24%;
+    margin-bottom: 5px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5);
+}
+
+.imagen-port>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.imagen-port:hover {
+    filter: opacity(.5);
+}
+
+/* casas */
+#casa1 {
+    padding: 0;
+    margin: 20px 20px;
+    border-radius: 50%;
+
+}
+
+.video-about-us {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.livingfoto {
+    padding: 0;
+    margin: 20px 20px;
+    border-radius: 100%;
+    width: 30%;
+}
+
+.foto-cama {
+    padding: 0;
+    margin: 70px 20px;
+    border-radius: 100%;
+    width: 30%;
+}
+
+/*servicios*/
+
+.carta1 {
+    background-image: url(../../Fotos/servicios/aaa.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta2 {
+    background-image: url(../../Fotos/servicios/aa.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta3 {
+    background-image: url(../../Fotos/servicios/a.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+
+
+.contenedor-sobre-fotos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo1 {
+    border-radius: 60%;
+    width: 40%;
+    margin: 40px 40px;
+    padding: 0 0;
+
+}
+
+.photo1:hover {
+    transition: 2s;
+    width: 60%;
+}
+
+
+#foto-pile {
+    width: 30%;
+    border-radius: 30%;
+    margin: 30px 30px;
+}
+
+.foto-pileta {
+    width: 30%;
+    border-radius: 30%;
+    margin: 30px 30px;
+}
+
+
+#foto-parque {
+    width: 30%;
+    border-radius: 30%;
+    margin: 30px 30px;
+}
+
+.foto-parque {
+    width: 30%;
+    border-radius: 30%;
+    margin: 30px 30px;
+}

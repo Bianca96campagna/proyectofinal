@@ -1,0 +1,50 @@
+/*contacto*/
+.form-titulo {
+    font-family: 'Roboto Mono', monospace;
+    color: grey;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+
+
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+
+}
+
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+}
+
+
+#boton {
+    background-color: #969e6b80;
+    color: white;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+    background-color: #969e6b;
+}
+

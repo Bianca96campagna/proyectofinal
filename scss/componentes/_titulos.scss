@@ -1,0 +1,333 @@
+/*index*/
+/*titulo-inicio*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navb {
+    background-color: #e4dcb557;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 50px;
+    display: flex;
+    flex-direction: center;
+    justify-content: end;
+}
+
+.navb:hover {
+    background-color: #c9c19d4f;
+    transition: all 4s;
+}
+
+.galeria .textos-nosotros {
+    font-family: 'Libre Bodoni', serif;
+    width: 48%;
+}
+
+.texto-p {
+    color: #fffdf9;
+    font-family: 'Libre Bodoni', serif;
+    padding: 0px 0px 20px 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*casas*/
+
+.texto-casas {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    padding: 20px 20px;
+}
+
+.h2-casas {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+
+
+.texto-casash3 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(100, 98, 98);
+    font-size: 20px;
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 50px 50px;
+    text-decoration: none;
+
+}
+
+.titulo-sobrenosotros {
+    color: rgb(228, 224, 224);
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0 0 0;
+    padding: 30px;
+}
+
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.sobrenosotros .contenidotextos {
+    width: 48%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.interior {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(228, 224, 224);
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid white;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px 100px 5px 10px;
+
+}
+
+
+
+
+.interiorp {
+    color: rgb(228, 224, 224);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    margin: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.habitaciones {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(228, 224, 224);
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid white;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px 100px 5px 10px;
+}
+
+
+
+.enlace {
+    display: flex;
+    justify-content: center;
+    color: rgb(228, 224, 224);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.habitacionesp {
+    color: rgb(228, 224, 224);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    margin: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.titulo-patio {
+    display: flex;
+    justify-content: center;
+    color: #969e6b;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #969e6b;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px
+}
+
+.parrafo-video {
+    width: 60%;
+    color: #969e6b;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    text-align: justify;
+}
+
+
+.interior-lista {
+    color: rgb(228, 224, 224);
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+
+}
+
+.habitaciones2 {
+    color: #969e6b;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #969e6b;
+
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px
+}
+
+.habitacion-lista {
+    color: #969e6b;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+}
+
+
+
+/*servicios*/
+.texto-servicios {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+}
+
+
+.texto-servicios:hover {
+    font-size: 80px;
+    transition: 2s;
+}
+
+.container-servi p {
+    display: none;
+    color: #ffffff;
+}
+
+.servicios-li {
+    color: white;
+    margin: 15px 0px;
+}
+
+
+#texto-servi {
+
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 40px;
+    border-bottom: 1px solid #ffffff;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+.contenido-texto-foto {
+
+    width: 60%;
+    color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin: 200px;
+    padding: 20px 20px;
+    text-align: justify;
+}
+
+
+
+.h3servicios {
+    display: block;
+    margin: 0;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+
+}
+
+.h2servicios {
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px 100px;
+    padding: 10px;
+}
+
+
+.contenedor-sobre-pileta {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.pileta {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    border-bottom: 1px solid white;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+
+}
+
+
+.pile-listas {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px;
+    text-align: start;
+    font-size: 20px;
+}
+
+/*contacto*/
+
+.h3contacto {
+    color: #969e6b;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+
+}
+
+.h2contacto {
+    color: grey;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0;
+    padding: 0 0;
+
+}
+
+
+/*ubicacion*/
+
+.ubicah2 {
+    background-color: rgb(170, 187, 125);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+
+}
