@@ -6,20 +6,19 @@
 }
 
 .inicio-titulo {
-  background-color: rgba(224, 216, 176, 0.4039215686);
   color: #ffffff;
   font-family: "Libre Bodoni", serif;
-  font-size: 40px;
+  font-size: 60px;
   display: flex;
   flex-direction: end;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
+  margin: 150px 100px;
   padding: 20px 20px;
 }
 
 .inicio-titulo:hover {
-  background-color: #e0d8b0;
+  background-color: #969e6b;
   transition: all 2s;
 }
 
@@ -128,6 +127,85 @@
 }
 
 /*navbar*/
+/*
+.bar-btn{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin: 0px 1300px;
+    cursor: pointer;
+
+
+}
+
+
+.navhola{
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    transition: all .5s;
+    text-align: end;
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a{
+    color: white;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: black;
+    transition: .3s;
+}
+
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .nav-menu {
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+  <header class="hi1">
+    <nav class="navhola">
+      <input type="checkbox" id="check">
+      <label for="check" class="bar-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="nav-menu">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="casas.html">Casas</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="ubicacion.html">Como llegar</a></li>
+
+      </ul>
+
+*/
 .navhola {
   text-align: right;
   padding: 20px 50px 0 0;
@@ -194,11 +272,11 @@
   text-align: right;
   width: 100%;
   height: 600px;
-  background: #4DA0B0;
+  background: rgba(77, 159, 176, 0.768627451);
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../Fotos/casas/inde.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/parque/5fa474c3-caa7-4e6c-8921-7481bca28f59.jpg);
+  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../Fotos/casas/inde.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
@@ -212,35 +290,43 @@
 }
 
 /*FONDO SERVICIOS*/
-.servicios {
+.hi3 {
   text-align: right;
   width: 100%;
   height: 600px;
-  background: #4DA0B0;
+  background: #649173;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  background: -webkit-linear-gradient(to right, rgba(117, 111, 61, 0.3960784314), rgba(128, 121, 87, 0.4509803922)), url(../Fotos/nueva/mesaexterior.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/pileta/ff.jpg);
+  background: linear-gradient(to right, rgba(117, 111, 61, 0.3960784314), rgba(128, 121, 87, 0.4509803922)), url(../Fotos/nueva/mesaexterior.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
   position: relative;
 }
 
+.contenedor-foto {
+  background-color: #969e6b;
+}
+
+.servicios {
+  background-color: #969e6b;
+}
+
 /*FONDO casas*/
 .casas {
-  background-color: white;
+  background-color: #969e6b;
 }
 
 .hi2 {
   text-align: right;
   width: 100%;
   height: 600px;
-  background: #4DA0B0;
+  background: #649173;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  background: -webkit-linear-gradient(to right, rgba(219, 213, 164, 0.3960784314), rgba(100, 145, 115, 0.4509803922)), url(../Fotos/casas/fondoca.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(211, 157, 56, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/casas/casas-fuera.jpg);
+  background: linear-gradient(to right, rgba(219, 213, 164, 0.3960784314), rgba(100, 145, 115, 0.4509803922)), url(../Fotos/casas/fondoca.jpg);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
@@ -270,9 +356,9 @@
   height: 600px;
   background: #4DA0B0;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(211, 157, 56, 0.6039215686), rgba(77, 159, 176, 0.3764705882));
+  background: -webkit-linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../Fotos/casas/2.jpg);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../../Fotos/casas/2.jpg);
+  background: linear-gradient(to right, rgba(180, 176, 169, 0.2823529412), rgba(77, 159, 176, 0.662745098)), url(../Fotos/casas/2.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -320,7 +406,7 @@
 }
 
 .navb:hover {
-  background-color: rgba(201, 193, 157, 0.3098039216);
+  background-color: rgba(228, 220, 181, 0.3411764706);
   transition: all 4s;
 }
 
@@ -371,7 +457,7 @@
   flex-direction: end;
   justify-content: center;
   align-items: center;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 50px 50px;
   text-decoration: none;
 }
@@ -397,6 +483,16 @@
 }
 
 .interior {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: rgb(228, 224, 224);
+  padding: 5px 10px 5px 10px;
+  border-bottom: 1px solid white;
+  font-family: "Roboto Mono", monospace;
+  margin: 0px 100px 5px 10px;
+}
+
+.interior-living {
   font-size: 30px;
   margin-bottom: 15px;
   color: rgb(228, 224, 224);
@@ -439,26 +535,28 @@
   padding: 5px 10px 5px 10px;
 }
 
+.contenedor-video {
+  background-color: white;
+}
+
 .titulo-patio {
   display: flex;
   justify-content: center;
   color: #969e6b;
   font-size: 30px;
-  margin-bottom: 15px;
-  padding: 5px 10px 5px 10px;
-  border-bottom: 1px solid #969e6b;
+  margin-bottom: 20px;
+  padding: 50px 10px 5px 10px;
   font-family: "Roboto Mono", monospace;
-  margin: 20px;
+  margin: 20px 20px;
 }
 
 .parrafo-video {
-  width: 60%;
   color: #969e6b;
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
-  margin: 20px 20px;
+  margin: 20px 400px;
   padding: 20px 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 .interior-lista {
@@ -635,9 +733,8 @@
 }
 
 .video-about-us {
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
+  width: 70%;
+  align-items: center;
 }
 
 .livingfoto {
@@ -656,28 +753,31 @@
 
 /*servicios*/
 .carta1 {
-  background-image: url(../../Fotos/servicios/aaa.jpg);
+  width: 30%;
+  background-image: url(../Fotos/servicios/aaa.jpg);
   background-position: center center;
   background-size: cover;
-  padding: 50px;
+  padding: 50px 10px;
   margin: 20px;
   border-radius: 15px;
 }
 
 .carta2 {
-  background-image: url(../../Fotos/servicios/aa.jpg);
+  background-image: url(../Fotos/servicios/aa.jpg);
   background-position: center center;
   background-size: cover;
-  padding: 50px;
+  padding: 50px 10px;
   margin: 20px;
   border-radius: 15px;
+  width: 30%;
 }
 
 .carta3 {
-  background-image: url(../../Fotos/servicios/a.jpg);
+  width: 30%;
+  padding: 50px 10px;
+  background-image: url(../Fotos/servicios/a.jpg);
   background-position: center center;
   background-size: cover;
-  padding: 50px;
   margin: 20px;
   border-radius: 15px;
 }
@@ -742,12 +842,22 @@ button:hover {
 }
 
 /*contacto*/
+.form-row {
+  font-family: "Roboto Mono", monospace;
+  color: grey;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
 .form-titulo {
   font-family: "Roboto Mono", monospace;
   color: grey;
   text-align: center;
   margin: 0;
   margin-bottom: 20px;
+  font-size: 30px;
 }
 
 form {
@@ -967,6 +1077,629 @@ body {
   justify-content: center;
   margin: 0;
   padding: 20px 20px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  /*navbar*/
+  .navhola {
+    display: inline-flex;
+    text-align: center;
+  }
+
+  .navhola > a {
+    font-size: 15px;
+    position: center;
+    display: flex;
+    padding: 10px 10px;
+  }
+
+  .navhola a:hover {
+    font-size: 20px;
+    transition: 0.5s;
+  }
+
+  /*index*/
+  .hi1 {
+    background-position: center;
+    text-align: center;
+  }
+
+  .inicio-titulo {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .galeria-port {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagen-port {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hola {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*footer*/
+  .footer-inicio {
+    font-size: 10px;
+    position: center;
+  }
+
+  h4 {
+    text-align: center;
+    width: 0px 0px;
+    padding: 0 0;
+    font-size: 15px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .titulo-final {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .whatsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+    width: 80px;
+  }
+
+  /*casas*/
+  .texto-casas {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #casa1 {
+    display: none;
+  }
+
+  .contenido-textos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .interior-living {
+    font-size: 30px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .livingfoto {
+    align-items: center;
+    margin: 100px 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+  }
+
+  .interior {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+  .habitaciones {
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+    font-size: 30px;
+  }
+
+  .contenedor-video {
+    display: none;
+  }
+
+  .foto-cama {
+    align-items: center;
+    margin: 30px 0px 5px 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+  }
+
+  /*servicios*/
+  #texto-servi {
+    margin: 50px 10px;
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .photo1 {
+    display: none;
+  }
+
+  .parrafo-foto {
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .h2servicios {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .programas {
+    flex-direction: column;
+    padding: 50px 10px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .h3servicios {
+    display: none;
+  }
+
+  .carta1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .carta2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    padding: 0;
+  }
+
+  .carta3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    padding: 0px;
+  }
+
+  .contenedor-sobre-pileta {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #foto-pile {
+    width: 90%;
+    border-radius: 30%;
+    margin: 30px 30px;
+  }
+
+  .foto-pileta {
+    width: 90%;
+    border-radius: 30%;
+    margin: 30px 30px;
+  }
+
+  .pileta {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .pile-listas {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #foto-parque {
+    width: 90%;
+    border-radius: 30%;
+    margin: 30px 30px;
+  }
+
+  .foto-parque {
+    width: 90%;
+    border-radius: 30%;
+    margin: 30px 30px;
+  }
+
+  /*contacto*/
+  .hi4 {
+    background-position: center;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 499px) {
+  /*navbar*/
+  .navhola {
+    text-align: center;
+    padding: 30px 0 0 0;
+  }
+
+  .navhola > a {
+    margin-right: 5px;
+    font-size: 10px;
+  }
+
+  .navhola a:hover {
+    font-size: 15px;
+    transition: 0.5s;
+  }
+
+  /*index*/
+  .hi1 {
+    background-position: center;
+    text-align: center;
+  }
+
+  .inicio-titulo {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .galeria-port {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagen-port {
+    width: 80%;
+    height: 80%;
+  }
+
+  .hola {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*footer*/
+  .footer-inicio {
+    font-size: 10px;
+    position: center;
+  }
+
+  h4 {
+    text-align: center;
+    width: 0px 0px;
+    padding: 0 0;
+    font-size: 10px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 8px;
+  }
+
+  .titulo-final {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .whatsapp {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+    width: 80px;
+  }
+
+  /*casas*/
+  .texto-casas {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .texto-casash3 {
+    font-size: 15px;
+  }
+
+  #casa1 {
+    display: none;
+  }
+
+  .contenido-textos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenido-textos > a {
+    font-size: 12px;
+  }
+
+  .contenedor-sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .interior {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+  }
+
+  .interiorp {
+    font-size: 10px;
+  }
+
+  .habitaciones {
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+    font-size: 25px;
+  }
+
+  .habitacionesp {
+    font-size: 10px;
+  }
+
+  .interior-living {
+    font-size: 25px;
+    margin: 10px 0 10px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .interior-lista {
+    font-size: 15px;
+  }
+
+  .livingfoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px 20px 20px;
+    padding: 0;
+    width: 90%;
+    height: 90%;
+    border-radius: 60%;
+  }
+
+  .contenedor-video {
+    display: none;
+  }
+
+  .foto-cama {
+    align-items: center;
+    margin: 30px 0px 5px 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 60%;
+  }
+
+  .habitaciones2 {
+    font-size: 25px;
+    margin: 10px 0 10px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+  }
+
+  /*servicios*/
+  #texto-servi {
+    margin: 50px 0 10px 0;
+    font-size: 25px;
+    padding: 0px;
+  }
+
+  .texto-servicios {
+    font-size: 30px;
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+  }
+
+  .h2servicios {
+    font-size: 20px;
+    margin: 0px 0px;
+    padding: 0px;
+  }
+
+  .photo1 {
+    display: none;
+  }
+
+  .contenido-texto-foto {
+    margin: 80px 0 0 0;
+    padding: 0px 0px;
+    text-align: justify;
+  }
+
+  .parrafo-foto {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .h3servicios {
+    display: none;
+  }
+
+  .programas {
+    flex-direction: column;
+    padding: 10px 10px 0 0;
+    margin: 0px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .carta1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .carta2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    padding: 0;
+  }
+
+  .carta3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    padding: 0px;
+  }
+
+  .nuestras-casas {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-servi {
+    margin: 30px 0 30px 0;
+    padding: 0;
+  }
+
+  .contenedor-sobre-pileta {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #foto-pile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 80%;
+    margin: 0px 30px 10px 30px;
+    padding: 0;
+  }
+
+  .foto-pileta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 80%;
+    margin: 0px 30px 10px 30px;
+    padding: 0;
+  }
+
+  .pileta {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .pile-listas {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #foto-parque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 80%;
+    margin: 0px 30px 10px 30px;
+    padding: 0;
+  }
+
+  .foto-parque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 80%;
+    margin: 0px 30px 10px 30px;
+    padding: 0;
+  }
+
+  /*contacto*/
+  .hi4 {
+    background-position: center;
+  }
+
+  .h2contacto {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .form-titulo {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .form-row {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .form-titulo {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  form {
+    width: 300px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+
+  input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    border: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
