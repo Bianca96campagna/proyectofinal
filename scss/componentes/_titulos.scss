@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 .navb {
     background-color: #e4dcb557;
     font-family: 'Libre Bodoni', serif;
@@ -16,7 +17,7 @@
 }
 
 .navb:hover {
-    background-color: #c9c19d4f;
+    background-color: #e4dcb557;
     transition: all 4s;
 }
 
@@ -69,7 +70,7 @@
     flex-direction: end;
     justify-content: center;
     align-items: center;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 50px 50px;
     text-decoration: none;
 
@@ -107,7 +108,15 @@
 
 }
 
-
+.interior-living{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(228, 224, 224);
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid white;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px 100px 5px 10px;
+}
 
 
 .interiorp {
@@ -145,26 +154,29 @@
     padding: 5px 10px 5px 10px;
 }
 
+.contenedor-video{
+    background-color: white;
+}
+
 .titulo-patio {
     display: flex;
     justify-content: center;
     color: #969e6b;
     font-size: 30px;
-    margin-bottom: 15px;
-    padding: 5px 10px 5px 10px;
-    border-bottom: 1px solid #969e6b;
+    margin-bottom: 20px;
+    padding: 50px 10px 5px 10px;
     font-family: 'Roboto Mono', monospace;
-    margin: 20px
+    margin: 20px 20px;
 }
 
 .parrafo-video {
-    width: 60%;
+    
     color: #969e6b;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-    margin: 20px 20px;
+    margin: 20px 400px;
     padding: 20px 20px;
-    text-align: justify;
+    text-align: center;
 }
 
 

@@ -1,13 +1,22 @@
 /*contacto*/
-.form-titulo {
+.form-row{
     font-family: 'Roboto Mono', monospace;
     color: grey;
     text-align: center;
     margin: 0;
     margin-bottom: 20px;
-
-
+    font-size: 15px;
 }
+
+.form-titulo{
+    font-family: 'Roboto Mono', monospace;
+    color: grey;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
 
 form {
     width: 450px;
@@ -15,8 +24,6 @@ form {
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
-
-
 }
 
 

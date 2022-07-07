@@ -1,0 +1,630 @@
+
+@media screen and (min-width: 500px) and (max-width:900px) {
+/*navbar*/
+    .navhola {
+        display: inline-flex;
+        text-align: center;
+    }
+    .navhola > a{
+        font-size: 15px;
+        position: center;
+        display: flex;
+       padding: 10px 10px;
+   
+
+    }
+    .navhola a:hover {
+        font-size: 20px;
+        transition: 0.5s;
+    }
+/*index*/
+    .hi1{
+        background-position: center;
+        text-align: center;
+    }
+    .inicio-titulo{
+        font-size: 40px;
+        text-align: center;
+    }
+    .galeria-port{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .imagen-port{
+    width: 100%;
+    height: 100%;
+    }
+
+    .hola{
+        margin: 0;
+        padding: 0;
+    }
+/*footer*/
+    .footer-inicio{
+        font-size: 10px;
+        position: center;
+    }
+    h4{
+        text-align: center;
+        width: 0px 0px;
+        padding: 0 0;
+        font-size: 15px;
+    }
+    p{
+        text-align: center;
+        font-size: 10px;
+    }
+    .titulo-final{
+        text-align: center;
+        font-size: 10px;
+    }
+    .whatsapp {
+            position: fixed;
+            right: 5px;
+            bottom: 5px;
+            z-index: 1;
+            width: 80px;
+        
+    }
+/*casas*/
+    .texto-casas{
+        font-size: 40px;
+        text-align: center;
+    }
+    #casa1 {
+        display: none;
+    }
+    .contenido-textos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-sobre-nosotros{
+        display: flex;
+    flex-direction: column;
+    }
+    .interior-living{
+    font-size: 30px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+    }
+    .livingfoto{
+        align-items: center;
+       margin: 100px 0px;
+       padding: 0;
+       width: 100%;
+       height: 100%;
+       border-radius: 10%;
+       
+    }
+    .interior{
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        font-size: 30px;
+    }
+    .habitaciones{
+        text-align: center;
+        margin: 10px;
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .contenedor-video{
+        display: none;
+    }
+ 
+    .foto-cama{
+        align-items: center;
+       margin: 30px 0px 5px 0px;
+       padding: 0;
+       width: 100%;
+       height: 100%;
+       border-radius: 10%;
+    }
+/*servicios*/
+    #texto-servi{
+        margin: 50px 10px;
+        font-size: 30px;
+        padding: 0;
+
+    }
+    .photo1{
+       display: none;
+    }
+    .parrafo-foto{
+        font-size: 20px;
+        margin: 0px;
+      text-align: center;
+    padding: 0px;
+    }
+
+    .h2servicios{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .programas{
+        flex-direction: column;
+        padding: 50px 10px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 0%;
+
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .h3servicios{
+        display: none;
+    }
+  .carta1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin: 0;
+      padding: 0;
+
+  }
+  .carta2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.carta3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    padding: 0px;
+}
+
+.contenedor-sobre-pileta{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#foto-pile{
+    width: 90%;
+    border-radius: 30%;
+    margin: 30px 30px;
+}
+
+.foto-pileta{
+    width: 90%;
+    border-radius: 30%;
+    margin: 30px 30px;
+}
+
+.pileta{
+    font-size: 40px;
+    text-align: center;
+}
+.pile-listas{
+    font-size: 20px;
+    text-align: center;
+}
+
+#foto-parque{
+    width: 90%;
+    border-radius: 30%;
+    margin: 30px 30px;
+}
+
+.foto-parque{
+    width: 90%;
+    border-radius: 30%;
+    margin: 30px 30px;
+}
+
+/*contacto*/
+
+
+.hi4{
+    background-position: center;
+}
+
+
+    }
+
+
+@media screen and (min-width: 300px) and (max-width:499px){
+    /*navbar*/
+    .navhola{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    .navhola > a{
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .navhola a:hover {
+        font-size: 15px;
+        transition: 0.5s;
+    }
+
+    
+/*index*/
+    .hi1 {
+        background-position: center;
+        text-align: center;
+
+    }
+
+    .inicio-titulo{
+        font-size: 40px;
+        text-align: center;
+        
+    }
+
+    .galeria-port{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        .imagen-port{
+        width: 80%;
+        height: 80%;
+        }
+    
+        .hola{
+            margin: 0;
+            padding: 0;
+        }
+
+        
+/*footer*/
+.footer-inicio{
+    font-size: 10px;
+    position: center;
+}
+h4{
+    text-align: center;
+    width: 0px 0px;
+    padding: 0 0;
+    font-size: 10px;
+}
+p{
+    text-align: center;
+    font-size: 8px;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 10px;
+}
+.whatsapp {
+        position: fixed;
+        right: 5px;
+        bottom: 5px;
+        z-index: 1;
+        width: 80px;
+    
+}
+
+
+/*casas*/
+.texto-casas{
+    font-size: 40px;
+    text-align: center;
+}
+.texto-casash3{
+    font-size: 15px;
+}
+
+#casa1 {
+    display: none;
+}
+
+.contenido-textos{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenido-textos > a{
+    font-size: 12px;
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+flex-direction: column;
+}
+
+.interior{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+.interiorp{
+    font-size: 10px;
+}
+
+.habitaciones{
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+    font-size: 25px;
+}
+.habitacionesp{
+    font-size: 10px;
+}
+
+    .interior-living{
+    font-size: 25px;
+    margin: 10px 0 10px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+    }
+
+    .interior-lista{
+        font-size: 15px;
+
+    }
+
+    .livingfoto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin: 50px 10px 20px 20px;
+       padding: 0;
+       width: 90%;
+       height: 90%;
+       border-radius: 60%;
+       
+    }
+
+    
+.contenedor-video{
+    display: none;
+}
+
+.foto-cama{
+    align-items: center;
+   margin: 30px 0px 5px 0px;
+   padding: 0;
+   width: 100%;
+   height: 100%;
+   border-radius: 60%;
+}
+
+.habitaciones2{
+    font-size: 25px;
+    margin: 10px 0 10px 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+}
+
+/*servicios*/
+#texto-servi{
+    margin: 50px 0 10px 0;
+    font-size: 25px;
+    padding: 0px;
+
+}
+
+.texto-servicios{
+    font-size: 30px;
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+}
+
+
+.h2servicios{
+    font-size: 20px;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+.photo1{
+    display: none;
+}
+
+.contenido-texto-foto{
+ 
+    margin: 80px 0 0 0;
+    padding: 0px 0px;
+    text-align: justify;
+}
+.parrafo-foto{
+        font-size: 15px;
+        text-align: justify;
+}
+
+
+.h3servicios{
+    display: none;
+}
+
+.programas{
+    flex-direction: column;
+    padding: 10px 10px 0 0;
+    margin: 0px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.carta1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  
+  }
+
+  .carta2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    padding: 0;
+    }
+    
+    .carta3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px 10px;
+    padding: 0px;
+    }
+
+    .nuestras-casas{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .container-servi{
+        margin: 30px 0 30px 0;
+        padding: 0;
+    }
+
+  
+    .contenedor-sobre-pileta{
+        display: flex;
+        flex-direction: column;
+        }
+
+#foto-pile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 80%;
+    margin: 0px 30px 10px 30px;
+    padding: 0;
+    
+    
+    }
+    
+    .foto-pileta{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        border-radius: 80%;
+        margin: 0px 30px 10px 30px;
+        padding: 0;
+    }
+    
+    .pileta{
+    font-size: 25px;
+    text-align: center;
+    }
+    .pile-listas{
+    font-size: 15px;
+    text-align: center;
+    }
+    
+    #foto-parque{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        border-radius: 80%;
+        margin: 0px 30px 10px 30px;
+        padding: 0;
+    }
+    
+    .foto-parque{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        border-radius: 80%;
+        margin: 0px 30px 10px 30px;
+        padding: 0;
+    }
+
+    /*contacto*/
+
+
+.hi4{
+    background-position: center;
+    }
+
+.h2contacto{
+    font-size: 25px;
+    text-align: center;
+}
+
+.form-titulo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-row{
+
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.form-titulo{
+
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border: none;
+}
+}
+
+
+
+
+
+

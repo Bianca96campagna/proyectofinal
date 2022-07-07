@@ -1,9 +1,90 @@
 /*navbar*/
+
+/*
+.bar-btn{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin: 0px 1300px;
+    cursor: pointer;
+
+
+}
+
+
+.navhola{
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    transition: all .5s;
+    text-align: end;
+}
+
+.nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a{
+    color: white;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: black;
+    transition: .3s;
+}
+
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .nav-menu {
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+}
+
+  <header class="hi1">
+    <nav class="navhola">
+      <input type="checkbox" id="check">
+      <label for="check" class="bar-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul class="nav-menu">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="casas.html">Casas</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="ubicacion.html">Como llegar</a></li>
+
+      </ul>
+
+*/
 .navhola {
     text-align: right;
     padding: 20px 50px 0 0;
     font-family: 'Roboto Mono', monospace;
 }
+
 
 .navhola a {
     color: white;
@@ -24,6 +105,8 @@
     text-align: center;
     margin-bottom: 60px;
 }
+
+
 
 
 /**/

@@ -38,9 +38,8 @@
 }
 
 .video-about-us {
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
+    width: 70%;
+    align-items: center;
 }
 
 
@@ -60,29 +59,35 @@
 
 /*servicios*/
 
+
+
 .carta1 {
-    background-image: url(../../Fotos/servicios/aaa.jpg);
+    width: 30%;
+    background-image: url(../Fotos/servicios/aaa.jpg);
     background-position: center center;
     background-size: cover;
-    padding: 50px;
+    padding: 50px 10px;
     margin: 20px;
     border-radius: 15px;
 }
 
 .carta2 {
-    background-image: url(../../Fotos/servicios/aa.jpg);
+    background-image: url(../Fotos/servicios/aa.jpg);
     background-position: center center;
     background-size: cover;
-    padding: 50px;
+    padding: 50px 10px;
     margin: 20px;
     border-radius: 15px;
+    width: 30%;
 }
 
 .carta3 {
-    background-image: url(../../Fotos/servicios/a.jpg);
+    width: 30%;
+    padding: 50px 10px;
+    background-image: url(../Fotos/servicios/a.jpg);
     background-position: center center;
     background-size: cover;
-    padding: 50px;
+
     margin: 20px;
     border-radius: 15px;
 }

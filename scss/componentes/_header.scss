@@ -2,24 +2,21 @@
   background-image: url(../../Fotos/parque/fond.jpg);
 }
 
-
 .inicio-titulo{
-    background-color: #e0d8b067;
+    
     color: #ffffff;
     font-family: 'Libre Bodoni', serif;
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     flex-direction: end;
     justify-content: center;
     align-items: center;
-    margin: 10px auto;
+    margin: 150px 100px;
     padding: 20px 20px;
 }
-
 .inicio-titulo:hover {
-    background-color: #e0d8b0;
+    background-color: #969e6b;
     transition: all 2s;
 }
-
 
 
